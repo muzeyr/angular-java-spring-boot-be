@@ -7,6 +7,7 @@ public class ResponseEntity<T> {
     private List<T> data;
     private String message;
     private String type;
+    private T object;
 
     public List<T> getData() {
         return data;
@@ -30,5 +31,13 @@ public class ResponseEntity<T> {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public T getObject() {
+        return object;
+    }
+
+    public void setObject(T object) {
+        this.object = object;
     }
 }

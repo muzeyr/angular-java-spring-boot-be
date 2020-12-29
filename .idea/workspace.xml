@@ -19,11 +19,39 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5558593-cc01-4d33-a8b2-afa20ed2e81a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcn/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcn/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcn/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcn/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcn/repository/UsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zcn/ZcnApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zcn/ZcnApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zcn/controller/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zcn/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zcn/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zcn/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zcn/dto/CategorySaveDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zcn/dto/CategorySaveDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zcn/dto/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zcn/dto/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zcn/dto/ResponseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zcn/dto/ResponseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zcn/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zcn/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/zcn-0.0.1-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/zcn-0.0.1-SNAPSHOT.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/zcn-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/zcn-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zcn.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +83,66 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zcn.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.zcn [spring-boot:run]">
+    <configuration name="ZcnApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.zcn.ZcnApplication" />
+      <module name="zcn" />
+      <shortenClasspath name="NONE" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application" singleton="false">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.zcn.ZcnApplication" />
+      <module name="zcn" />
+      <shortenClasspath name="NONE" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zcn [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ZcnApplication" />
+      <item itemvalue="Maven.zcn [spring-boot:run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.zcn [spring-boot:run]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,7 +160,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -80,42 +180,124 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1920" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608892082360">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="1873" y="347" key="#Console" timestamp="1609262810380">
+      <screen x="1080" y="91" width="1869" height="1057" />
+    </state>
+    <state x="1873" y="347" key="#Console/1080.91.1869.1057/0.23.1080.1897@1080.91.1869.1057" timestamp="1609262810380" />
+    <state x="1674" y="272" width="1135" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609270598907">
+      <screen x="1080" y="91" width="1869" height="1057" />
     </state>
     <state x="-1920" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1608892082360" />
-    <state x="-1141" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1608890941388">
+    <state x="1674" y="272" width="1135" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/1080.91.1869.1057/0.23.1080.1897@1080.91.1869.1057" timestamp="1609270598907" />
+    <state x="1838" y="310" key="#com.intellij.ide.util.MemberChooser" timestamp="1609271353009">
+      <screen x="1080" y="91" width="1869" height="1057" />
+    </state>
+    <state x="-1141" y="242" key="#com.intellij.ide.util.MemberChooser/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1609067807905" />
+    <state x="1838" y="310" key="#com.intellij.ide.util.MemberChooser/1080.91.1869.1057/0.23.1080.1897@1080.91.1869.1057" timestamp="1609271353009" />
+    <state x="1947" y="419" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1609269734824">
+      <screen x="1080" y="91" width="1869" height="1057" />
+    </state>
+    <state x="1947" y="419" key="#com.intellij.ide.util.TreeClassChooserDialog/1080.91.1869.1057/0.23.1080.1897@1080.91.1869.1057" timestamp="1609269734824" />
+    <state x="-1175" y="453" width="430" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608901151813">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1141" y="242" key="#com.intellij.ide.util.MemberChooser/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1608890941388" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1608893651229">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="-1175" y="453" width="430" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1608901151813" />
+    <state width="1590" height="302" key="GridCell.Tab.0.bottom" timestamp="1609271372825">
+      <screen x="1080" y="91" width="1869" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1608893651229" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1608893651228">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="993" height="210" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1609070705331" />
+    <state width="1590" height="302" key="GridCell.Tab.0.bottom/1080.91.1869.1057/0.23.1080.1897@1080.91.1869.1057" timestamp="1609271372825" />
+    <state width="1590" height="302" key="GridCell.Tab.0.center" timestamp="1609271372824">
+      <screen x="1080" y="91" width="1869" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1608893651228" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1608893651227">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="993" height="210" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1609070705331" />
+    <state width="1590" height="302" key="GridCell.Tab.0.center/1080.91.1869.1057/0.23.1080.1897@1080.91.1869.1057" timestamp="1609271372824" />
+    <state width="1590" height="302" key="GridCell.Tab.0.left" timestamp="1609271372824">
+      <screen x="1080" y="91" width="1869" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1608893651227" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1608893651228">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="993" height="210" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1609070705330" />
+    <state width="1590" height="302" key="GridCell.Tab.0.left/1080.91.1869.1057/0.23.1080.1897@1080.91.1869.1057" timestamp="1609271372824" />
+    <state width="1590" height="302" key="GridCell.Tab.0.right" timestamp="1609271372825">
+      <screen x="1080" y="91" width="1869" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1608893651228" />
+    <state width="993" height="210" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1609070705331" />
+    <state width="1590" height="302" key="GridCell.Tab.0.right/1080.91.1869.1057/0.23.1080.1897@1080.91.1869.1057" timestamp="1609271372825" />
+    <state width="1590" height="302" key="GridCell.Tab.1.bottom" timestamp="1609271372757">
+      <screen x="1080" y="91" width="1869" height="1057" />
+    </state>
+    <state width="993" height="210" key="GridCell.Tab.1.bottom/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1609070705333" />
+    <state width="1590" height="302" key="GridCell.Tab.1.bottom/1080.91.1869.1057/0.23.1080.1897@1080.91.1869.1057" timestamp="1609271372757" />
+    <state width="1590" height="302" key="GridCell.Tab.1.center" timestamp="1609271372757">
+      <screen x="1080" y="91" width="1869" height="1057" />
+    </state>
+    <state width="993" height="210" key="GridCell.Tab.1.center/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1609070705332" />
+    <state width="1590" height="302" key="GridCell.Tab.1.center/1080.91.1869.1057/0.23.1080.1897@1080.91.1869.1057" timestamp="1609271372757" />
+    <state width="1590" height="302" key="GridCell.Tab.1.left" timestamp="1609271372757">
+      <screen x="1080" y="91" width="1869" height="1057" />
+    </state>
+    <state width="993" height="210" key="GridCell.Tab.1.left/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1609070705332" />
+    <state width="1590" height="302" key="GridCell.Tab.1.left/1080.91.1869.1057/0.23.1080.1897@1080.91.1869.1057" timestamp="1609271372757" />
+    <state width="1590" height="302" key="GridCell.Tab.1.right" timestamp="1609271372757">
+      <screen x="1080" y="91" width="1869" height="1057" />
+    </state>
+    <state width="993" height="210" key="GridCell.Tab.1.right/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1609070705332" />
+    <state width="1590" height="302" key="GridCell.Tab.1.right/1080.91.1869.1057/0.23.1080.1897@1080.91.1869.1057" timestamp="1609271372757" />
+    <state x="1620" y="201" key="SettingsEditor" timestamp="1609270315375">
+      <screen x="1080" y="91" width="1869" height="1057" />
+    </state>
+    <state x="1620" y="201" key="SettingsEditor/1080.91.1869.1057/0.23.1080.1897@1080.91.1869.1057" timestamp="1609270315375" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1608892078789">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1608892078789" />
+    <state x="-1253" y="306" width="586" height="490" key="find.popup" timestamp="1608900566228">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1253" y="306" width="586" height="490" key="find.popup/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1608900566228" />
+    <state x="-1295" y="256" width="670" height="675" key="run.anything.popup" timestamp="1608896567058">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1295" y="256" width="670" height="675" key="run.anything.popup/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1608896567058" />
+    <state x="-1295" y="258" key="search.everywhere.popup" timestamp="1608903686750">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1295" y="258" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1741.1097/-3000.-119.1080.1897@-1920.23.1920.1057" timestamp="1608903686750" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zcn/controller/Category.java</url>
-          <line>13</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zcn/controller/CategoryController.java</url>
+          <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zcn/controller/CategoryController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zcn/controller/CategoryController.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zcn/controller/CategoryController.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zcn/controller/CategoryController.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zcn/controller/CategoryController.java</url>
+          <line>28</line>
+          <properties class="com.zcn.controller.CategoryController" method="findCategory">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

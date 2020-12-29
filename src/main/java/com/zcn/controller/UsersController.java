@@ -3,6 +3,8 @@ package com.zcn.controller;
 
 import com.zcn.dto.ResponseEntity;
 import com.zcn.entity.User;
+import com.zcn.repository.UsersRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -12,6 +14,9 @@ import java.util.List;
 @RequestMapping("/users")
 @CrossOrigin
 public class UsersController {
+
+    @Autowired
+    private UsersRepository usersRepository;
 
     @GetMapping
     private ResponseEntity list(){
@@ -33,10 +38,14 @@ public class UsersController {
         responseEntity.setMessage("Listeleme başarılı");
         return responseEntity;
     }
+
+
     @PostMapping
     private ResponseEntity  save(@RequestBody User user){
         ResponseEntity  responseEntity = new ResponseEntity();
+        usersRepository.save(user);
         responseEntity.setMessage(user.getAdiSoyadi()+" sisteme kaydedildi");
+        responseEntity.setObject(user);
         return responseEntity;
     }
 

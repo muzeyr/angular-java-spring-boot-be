@@ -1,8 +1,13 @@
 package com.zcn.dto;
 
+import java.util.List;
+
 public class CategorySaveDto {
+
+    private String id;
     private String kategoriAdi;
-    private ProductDto[] productDto;
+
+    private List<ProductDto> urunler;
 
     public String getKategoriAdi() {
         return kategoriAdi;
@@ -12,11 +17,21 @@ public class CategorySaveDto {
         this.kategoriAdi = kategoriAdi;
     }
 
-    public ProductDto[] getProductDto() {
-        return productDto;
+
+    public String getId() {
+        return id;
     }
 
-    public void setProductDto(ProductDto[] productDto) {
-        this.productDto = productDto;
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public List<ProductDto> getUrunler() {
+        return urunler;
+    }
+
+    public void setUrunler(List<ProductDto> urunler) {
+        this.urunler = urunler;
     }
 }
+

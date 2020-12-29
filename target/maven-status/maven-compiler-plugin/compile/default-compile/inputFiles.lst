@@ -1,8 +1,13 @@
-/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/controller/UsersController.java
-/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/controller/Category.java
-/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/dto/CategorySaveDto.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/repository/UsersRepository.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/dto/ProductDto.java
-/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/ZcnApplication.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/repository/ProductRepository.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/entity/User.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/entity/Product.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/controller/UsersController.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/repository/CategoryRepository.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/dto/CategorySaveDto.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/ZcnApplication.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/entity/Category.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/controller/CategoryController.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/dto/ResponseEntity.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/ServletInitializer.java
