@@ -56,9 +56,8 @@ public class CategoryController {
         Category category = new Category();
         category.setId(categorySaveDto.getId());
         category.setCategoryName(categorySaveDto.getKategoriAdi());
-        category.setVersion("v111");
         var productList = new ArrayList<Product>();
-
+        categoryRepository.save(category);
         categorySaveDto.getUrunler().forEach(item ->{
             var product = new Product();
             product.setProductName(item.getUrunAdi());
@@ -68,8 +67,9 @@ public class CategoryController {
         });
         productRepository.saveAll(productList);
         category.setProducts(productList);
+        categoryRepository.save(category);
 
-        responseEntity.setObject(categoryRepository.save(category));
+        responseEntity.setObject(category);
         responseEntity.setMessage(categorySaveDto.getKategoriAdi()+" Kategoriler sisteme kaydedildi.");
         return responseEntity;
 

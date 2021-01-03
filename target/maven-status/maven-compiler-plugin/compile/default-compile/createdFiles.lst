@@ -1,8 +1,10 @@
 com/zcn/entity/Musteri.class
 com/zcn/controller/UsersController.class
+com/zcn/repository/SiparisRepository.class
 com/zcn/entity/User.class
 com/zcn/ServletInitializer.class
 com/zcn/repository/CategoryRepository.class
+com/zcn/controller/SiparisController.class
 com/zcn/dto/MusteriSaveDto.class
 com/zcn/controller/CategoryController.class
 com/zcn/dto/CategorySaveDto.class
@@ -14,4 +16,6 @@ com/zcn/entity/Product.class
 com/zcn/controller/MusteriController.class
 com/zcn/ZcnApplication.class
 com/zcn/repository/MusteriRepository.class
+com/zcn/entity/Siparis.class
+com/zcn/dto/SiparisSaveDto.class
 com/zcn/repository/ProductRepository.class

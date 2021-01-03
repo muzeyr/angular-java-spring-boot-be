@@ -11,9 +11,27 @@ public class SiparisSaveDto {
     private Musteri musteri;
     private Product product[];
 
-    public SiparisSaveDto(String id, Musteri musteri, Product[] product) {
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
         this.id = id;
+    }
+
+    public Musteri getMusteri() {
+        return musteri;
+    }
+
+    public void setMusteri(Musteri musteri) {
         this.musteri = musteri;
+    }
+
+    public Product[] getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product[] product) {
         this.product = product;
     }
 }

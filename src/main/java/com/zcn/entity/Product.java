@@ -2,7 +2,10 @@ package com.zcn.entity;
 
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.annotation.Version;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
+
 
 @Document
 public class Product {
@@ -11,6 +14,9 @@ public class Product {
     private String id;
     private String productName;
     private String price;
+    private String quantity;
+    @Version
+    Long version;
 
     public String getId() {
 
@@ -36,5 +42,21 @@ public class Product {
 
     public void setPrice(String price) {
         this.price = price;
+    }
+
+    public Long getVersion() {
+        return version;
+    }
+
+    public void setVersion(Long version) {
+        this.version = version;
+    }
+
+    public String getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(String quantity) {
+        this.quantity = quantity;
     }
 }

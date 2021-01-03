@@ -39,7 +39,8 @@ public class SiparisController {
     private ResponseEntity save(@RequestBody SiparisSaveDto siparisSaveDto){
         ResponseEntity  responseEntity = new ResponseEntity();
         var siparis  = new Siparis();
-
+        siparis.setMusteri(siparisSaveDto.getMusteri());
+        siparis.setProduct(siparisSaveDto.getProduct());
         responseEntity.setObject(siparisRepository.save(siparis));
 
         return responseEntity;

@@ -2,12 +2,16 @@
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/dto/ProductDto.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/entity/Musteri.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/repository/ProductRepository.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/repository/SiparisRepository.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/entity/User.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/entity/Product.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/dto/SiparisSaveDto.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/controller/UsersController.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/entity/Siparis.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/repository/CategoryRepository.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/controller/MusteriController.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/dto/CategorySaveDto.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/controller/SiparisController.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/ZcnApplication.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/repository/MusteriRepository.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/entity/Category.java
