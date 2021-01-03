@@ -6,6 +6,8 @@ import org.springframework.data.annotation.Version;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.math.BigDecimal;
+
 
 @Document
 public class Product {
@@ -13,8 +15,8 @@ public class Product {
     @Id
     private String id;
     private String productName;
-    private String price;
-    private String quantity;
+    private BigDecimal price;
+    private BigDecimal quantity;
     @Version
     Long version;
 
@@ -36,11 +38,12 @@ public class Product {
         this.productName = productName;
     }
 
-    public String getPrice() {
+
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 
@@ -52,11 +55,11 @@ public class Product {
         this.version = version;
     }
 
-    public String getQuantity() {
+    public BigDecimal getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(String quantity) {
+    public void setQuantity(BigDecimal quantity) {
         this.quantity = quantity;
     }
 }

@@ -1,10 +1,13 @@
 package com.zcn.dto;
 
+import java.math.BigDecimal;
+
 public class ProductDto {
 
     private  String id;
     private  String urunAdi;
-    private  String fiyat;
+    private BigDecimal fiyat;
+    private  BigDecimal adet;
 
     public String getUrunAdi() {
         return urunAdi;
@@ -14,12 +17,20 @@ public class ProductDto {
         this.urunAdi = urunAdi;
     }
 
-    public String getFiyat() {
+    public BigDecimal getFiyat() {
         return fiyat;
     }
 
-    public void setFiyat(String fiyat) {
+    public void setFiyat(BigDecimal fiyat) {
         this.fiyat = fiyat;
+    }
+
+    public BigDecimal getAdet() {
+        return adet;
+    }
+
+    public void setAdet(BigDecimal adet) {
+        this.adet = adet;
     }
 
     public String getId() {

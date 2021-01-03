@@ -1,15 +1,17 @@
 package com.zcn.dto;
 
-import com.zcn.entity.Musteri;
-import com.zcn.entity.Product;
+import com.zcn.entity.Customer;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 public class SiparisSaveDto {
 
     private String id;
-    private Musteri musteri;
-    private Product product[];
+    private Customer musteri;
+    private List<ProductDto> urunler;
+    private BigDecimal tutar;
+
 
     public String getId() {
         return id;
@@ -19,20 +21,28 @@ public class SiparisSaveDto {
         this.id = id;
     }
 
-    public Musteri getMusteri() {
+    public Customer getMusteri() {
         return musteri;
     }
 
-    public void setMusteri(Musteri musteri) {
+    public void setMusteri(Customer musteri) {
         this.musteri = musteri;
     }
 
-    public Product[] getProduct() {
-        return product;
+    public List<ProductDto> getUrunler() {
+        return urunler;
     }
 
-    public void setProduct(Product[] product) {
-        this.product = product;
+    public void setUrunler(List<ProductDto> urunler) {
+        this.urunler = urunler;
+    }
+
+    public BigDecimal getTutar() {
+        return tutar;
+    }
+
+    public void setTutar(BigDecimal tutar) {
+        this.tutar = tutar;
     }
 }
 

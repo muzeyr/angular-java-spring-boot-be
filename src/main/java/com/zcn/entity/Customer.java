@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.List;
 
 @Document
-public class Musteri {
+public class Customer {
     @Id
     private String id;
     private String name;
