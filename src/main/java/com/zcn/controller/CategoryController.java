@@ -45,6 +45,8 @@ public class CategoryController {
         ResponseEntity  responseEntity = new ResponseEntity();
         var list = categoryRepository.findAll();
         responseEntity.setData(list);
+        responseEntity.setMessage("Veriler başarıyla çekildi");
+        responseEntity.setType("S");
         return responseEntity;
     }
 
