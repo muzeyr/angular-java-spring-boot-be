@@ -4,6 +4,7 @@
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/dto/ProductDto.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/entity/Order.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/repository/ProductRepository.java
+/Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/util/Utils.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/repository/SiparisRepository.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/entity/User.java
 /Users/mozcan/Desktop/youtube-icerik/angular-java-spring-boot-be/src/main/java/com/zcn/entity/Product.java

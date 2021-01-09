@@ -4,10 +4,11 @@ import com.zcn.dto.ResponseEntity;
 import com.zcn.dto.SiparisSaveDto;
 import com.zcn.entity.Order;
 import com.zcn.entity.Product;
-import com.zcn.repository.SiparisRepository;
+import com.zcn.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 @RestController
@@ -16,7 +17,7 @@ import java.util.ArrayList;
 public class OrderController {
 
     @Autowired
-    SiparisRepository siparisRepository;
+    OrderRepository siparisRepository;
 
 
 
@@ -39,7 +40,18 @@ public class OrderController {
         responseEntity.setType("S");
         return responseEntity;
     }
+    @PostMapping(value = {"weekly", "/weekly"})
+    private  ResponseEntity weekly(){
 
+        var startDate= LocalDateTime.now();
+        var lastDate=startDate.minusDays(7);
+        ResponseEntity  responseEntity = new ResponseEntity();
+        var list = siparisRepository.getAllBetweenDates(startDate,lastDate);
+        responseEntity.setData(list);
+        responseEntity.setMessage("Veriler başarıyla çekildi");
+        responseEntity.setType("S");
+        return responseEntity;
+    }
     @PostMapping
     private ResponseEntity save(@RequestBody SiparisSaveDto siparisSaveDto){
         ResponseEntity  responseEntity = new ResponseEntity();
@@ -48,6 +60,7 @@ public class OrderController {
         var order  = new Order();
         order.setTotalPrice(siparisSaveDto.getTutar());
         order.setCustomer(siparisSaveDto.getMusteri());
+        order.setCreatedAt(LocalDateTime.now());
         siparisSaveDto.getUrunler().forEach(item ->{
             var product = new Product();
             product.setProductName(item.getUrunAdi());
